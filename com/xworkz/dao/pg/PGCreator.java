@@ -2,7 +2,7 @@ package com.xworkz.dao.pg;
 
 public class PGCreator {
 	public static void main(String[] args) {
-		String pgName="Khushi PG";
+		String pgName="Banni edu nimde PG";
 		pgName=pgName.replace("", "");
 		System.out.println(pgName);
 		
