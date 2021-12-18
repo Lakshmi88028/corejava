@@ -55,16 +55,16 @@ public class Family {
 		//Assending Order
 			Map<String, Integer> familyMemberMap1=new TreeMap<String, Integer>((e1, e2)->e1.compareTo(e2));
 			
-			familyMemberMap1.put("Vidyashree", 11);
-			familyMemberMap1.put("Aishwary", 5);
-			familyMemberMap1.put("Sanjana", 5);
-			familyMemberMap1.put("Ganga", 7);
-			familyMemberMap1.put("Susmita", 4);
-			familyMemberMap1.put("Basavaraj", 4);
-			familyMemberMap1.put("Tejashwini", 3);
-			familyMemberMap1.put("Sambruddi", 3);
-			familyMemberMap1.put("Vishalaxi", 6);
-			familyMemberMap1.put("Paddamavati", 8);
+		familyMemberMap.put("Lakshmi", 5);
+		familyMemberMap.put("pooja", 5);
+		familyMemberMap.put("Ashwini", 5);
+		familyMemberMap.put("shubha", 5);
+		familyMemberMap.put("Radika", 4);
+		familyMemberMap.put("Nandidni", 5);
+		familyMemberMap.put("Lata", 3);
+		familyMemberMap.put("Geeta", 5);
+		familyMemberMap.put("Vishalaxi", 6);
+		familyMemberMap.put("Srushti", 8);
 			
 			Iterator<Map.Entry<String, Integer>> itr1=entrySet.iterator();
 			System.out.println("========================");
