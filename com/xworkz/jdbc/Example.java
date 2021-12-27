@@ -2,17 +2,10 @@ package com.xworkz.jdbc;
 
 public class Example {
 
-	public static void main(String[] args) {
-		String  driverFQN="com.mysql.cj.jdbc.Driver";
-	
+	public static void main(String[] args) throws ClassNotFoundException {
 		System.out.println("This is my jdbc");
-		try {
-			Class.forName(driverFQN);
-		} catch (ClassNotFoundException e) {
-			
-			e.printStackTrace();
-		}
-
+		String  driverFQN="com.mysql.cj.jdbc.Driver";
+		Class.forName(driverFQN);
 	}
 
 }
